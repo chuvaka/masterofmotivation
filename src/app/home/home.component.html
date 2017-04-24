@@ -1,1 +1,14 @@
-<div class="ttl">{{ttl}}</div>
+<form class="search__form" action="">
+	<input class="search__input" 
+	[(ngModel)]="inputText"
+	name="search" 
+	type="search" 
+	placeholder="Как тебя зовут?" 
+	autocomplete="off" 
+	autocorrect="off" 
+	autocapitalize="off" 
+	spellcheck="false" />
+	<span class="search__info">Нажмите Enter, чтобы начать</span>
+</form>
+
+{{inputText}}

@@ -13,7 +13,7 @@
   width: 140px;
   height: 19px;
   display: inline-block;
-  background: url(../assets/logo.svg) no-repeat;
+  background: #ffefb9;
   cursor: pointer;
   outline: none;
 }
@@ -39,59 +39,4 @@
   width: 100%;
   overflow: hidden;
   z-index: 1;
-}
-
-.footer:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: url(../assets/wave1.svg) left bottom repeat-x;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  -webkit-transition: background-position 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  transition: background-position 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.footer__container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-}
-
-.footer__container:before,
-.footer__container:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: background-position 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  transition: background-position 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.footer__container:before {
-  background: url(../assets/wave2.svg) repeat-x;
-  height: 368px;
-  top: 2rem;
-  z-index: 1;
-}
-
-.footer__container:after {
-  background: url(../assets/wave3.svg) repeat-x;
-  height: 341px;
-  z-index: 2;
-}
-
-.footer:hover:before {
-  background-position-x: -500px;
-}
-.footer:hover .footer__container:before, 
-.footer:hover .footer__container:after {
-  background-position-x: 500px;
 }

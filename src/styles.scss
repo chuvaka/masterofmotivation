@@ -11,12 +11,14 @@ html {
 *:after {
 	box-sizing: inherit;
 }
-body {
+body { 
+    background-color: #2f2c2c;
+	color: #ffefb9;
+	font: 16px/1.2 Arial, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0;
-	position: relative;
-	font: 10px/1.5 Arial, Helvetica, sans-serif;
-	background: linear-gradient(-180deg, #3023AE 0%, #53A0FE 100%, #B4ED50 100%) no-repeat fixed;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 a {

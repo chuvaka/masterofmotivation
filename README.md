@@ -1,16 +1,12 @@
-# Text-To-Learn-App
+# Master of Motivation
 
-Author: [angularattack2017-angry-boys|https://github.com/Hackbit/angularattack2017-angry-boys]
+Author: Alexey Kondratyev
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
 
 ## Build
 
@@ -32,9 +28,3 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Deploying to Github Pages
 
 Run `ng github-pages:deploy` to deploy to Github Pages.
-
-## Production server (Heroku)
-1. `heroku create`
-2. `git push heroku master` or `npm run deploy`
-3. `heroku open`
-
